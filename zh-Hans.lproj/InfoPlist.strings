@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  LocalizationDemo
+
+  Created by por on 2017/3/10.
+  Copyright © 2017年 liuchunxi. All rights reserved.
+*/
+CFBundleDisplayName = "国际化";

@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "切换语言"; ObjectID = "Cs3-ic-Aoc"; */
+"Cs3-ic-Aoc.normalTitle" = "切换语言";
+
+/* Class = "UILabel"; text = "三"; ObjectID = "Qkv-Zg-OZj"; */
+"Qkv-Zg-OZj.text" = "三";
+
+/* Class = "UILabel"; text = "二"; ObjectID = "cyC-hH-CwU"; */
+"cyC-hH-CwU.text" = "二";
+
+/* Class = "UILabel"; text = "一"; ObjectID = "rVo-nf-1pR"; */
+"rVo-nf-1pR.text" = "一";

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cs3-ic-Aoc">
+                                <rect key="frame" x="66" y="120" width="243" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="lLL-u4-a4j"/>
+                                </constraints>
+                                <state key="normal" title="切换语言"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="一" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rVo-nf-1pR">
+                                <rect key="frame" x="66" y="230" width="243" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="二" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cyC-hH-CwU">
+                                <rect key="frame" x="66" y="291" width="243" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="三" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qkv-Zg-OZj">
+                                <rect key="frame" x="66" y="352" width="243" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UTs-97-Qvh">
+                                <rect key="frame" x="110" y="433" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cyC-hH-CwU" firstAttribute="leading" secondItem="Cs3-ic-Aoc" secondAttribute="leading" id="8cS-fw-smQ"/>
+                            <constraint firstItem="cyC-hH-CwU" firstAttribute="top" secondItem="rVo-nf-1pR" secondAttribute="bottom" constant="40" id="JNb-Xb-gd2"/>
+                            <constraint firstItem="Qkv-Zg-OZj" firstAttribute="leading" secondItem="Cs3-ic-Aoc" secondAttribute="leading" id="Rtj-tf-Eud"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Cs3-ic-Aoc" secondAttribute="trailing" constant="50" id="XZ9-Fw-XAA"/>
+                            <constraint firstItem="rVo-nf-1pR" firstAttribute="trailing" secondItem="Cs3-ic-Aoc" secondAttribute="trailing" id="Z4l-pz-wpY"/>
+                            <constraint firstItem="rVo-nf-1pR" firstAttribute="leading" secondItem="Cs3-ic-Aoc" secondAttribute="leading" id="eei-SV-faD"/>
+                            <constraint firstItem="Cs3-ic-Aoc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="elv-Ga-SOt"/>
+                            <constraint firstItem="rVo-nf-1pR" firstAttribute="top" secondItem="Cs3-ic-Aoc" secondAttribute="bottom" constant="40" id="ezl-Et-kNr"/>
+                            <constraint firstItem="Qkv-Zg-OZj" firstAttribute="top" secondItem="cyC-hH-CwU" secondAttribute="bottom" constant="40" id="hCf-qB-hUv"/>
+                            <constraint firstItem="cyC-hH-CwU" firstAttribute="trailing" secondItem="Cs3-ic-Aoc" secondAttribute="trailing" id="pgJ-Rd-Bpd"/>
+                            <constraint firstItem="Qkv-Zg-OZj" firstAttribute="trailing" secondItem="Cs3-ic-Aoc" secondAttribute="trailing" id="sYd-Y5-ZfY"/>
+                            <constraint firstItem="Cs3-ic-Aoc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="y7D-0g-coY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label1" destination="rVo-nf-1pR" id="kkf-zk-hcB"/>
+                        <outlet property="label2" destination="cyC-hH-CwU" id="ZoZ-zb-gVp"/>
+                        <outlet property="label3" destination="Qkv-Zg-OZj" id="Wg8-9c-GAV"/>
+                        <outlet property="switchLanguageButton" destination="Cs3-ic-Aoc" id="Ut4-Ek-8Ji"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-417" y="107"/>
+        </scene>
+    </scenes>
+</document>

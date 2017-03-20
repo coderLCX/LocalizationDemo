@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  LocalizationDemo
+
+  Created by por on 2017/3/10.
+  Copyright © 2017年 liuchunxi. All rights reserved.
+*/
+
+"label1" = "one";
+"label2" = "two";
+"label3" = "three";
